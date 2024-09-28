@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "types": [
+            "node",
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "~/*": [
+                "./types/*"
+            ]
+        },
+        "target": "ES6",
+        "outDir": "dist",
+        "declaration": true,
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin"
+            }
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
