@@ -6,5 +6,11 @@ describe("my-lib:isArrayLike", () => {
         expect(
             isArrayLike()
         ).toBe(false);
+    });
+
+    test("isArrayLike():true", () => {
+        expect(
+            isArrayLike()
+        ).toBe(false);
     })
 })
